@@ -1,114 +1,18 @@
 
-.nav {
-  width: 100%;
-  height: auto;
-  background: black;
-  color: #f00; 
-  position: sticky;
-  top: 0;
 
-}
-
-.nav-ul {
-  display: flex;
-  margin: 0;
-  padding: 10px 100px ;
-  justify-content: flex-end;
-}
-
-nav ul li {
-  list-style: none;
-}
-
-nav ul li a {
-  display: block;
-  color: #fff;
-  padding: 0 10px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 50px; /**  Rarely used! **/
-}
-
-nav ul li a:hover,
-nav ul li a.active {
-  color: darkslategrey;
-  
-} 
-
-
-
-
-
-
-
-
-
-/* The side navigation menu */
-.sidebar {
+.nav-1 {
+   
+    height: auto;
+    
+    
+    position: sticky;
+    top: 63px;
     margin: 0;
     padding: 0;
-    width: 250px;
+   
     background-color: #f1f1f1;
-    position: fixed;
+   
     height: 100%;
     overflow: auto;
-  }
   
-  /* Sidebar links */
-  .sidebar a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
   }
-  
-  /* Active/current link */
-  .sidebar a.active {
-    
-    color: red;
-  }
-  
-  /* Links on mouse-over */
-  .sidebar a:hover:not(.active) {
-   
-    color: red;
-  }
-  
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  div.content {
-    
-    padding: 1px 16px;
-    height: 1000px;
-    margin-left: 250px;
-  }
-  
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
-    .content {
-      width: 100%;
-      height: auto;
-      position: relative;
-      text-align: center;
-      position: absolute;left: 0; ;
-    }
-  }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
-    .sidebar a {
-      text-align: center;
-      float: none;
-    }
-  }
-
-
-
-

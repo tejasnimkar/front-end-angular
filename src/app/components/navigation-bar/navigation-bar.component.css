@@ -1,0 +1,43 @@
+
+.nav {
+    width: 100%;
+    top: 0;
+  
+  }
+  
+  .nav-ul {
+    display: flex;
+    margin: 0;
+    padding: 10px 100px ;
+   
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px; /**  Rarely used! **/
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: darkslategrey;
+    
+  } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
