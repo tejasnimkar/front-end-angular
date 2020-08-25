@@ -16,6 +16,9 @@ import { Subscription } from 'rxjs';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatListModule } from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatSidenavModule,
     FlexLayoutModule,
     LayoutModule,
-    MatListModule
+    MatListModule,
+    MatExpansionModule,
+    MatCardModule,
+    MatFormFieldModule
 
   ],
   providers: [],

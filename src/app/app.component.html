@@ -1,23 +1,190 @@
+<!-- navbar -->
+         <div class="nav"><mat-toolbar >
 
-           <nav>
-            <ul>
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
+
+         
+
+
+
+    <div class="mat-body-strong">
    
-
+      <nav  class="navbar fixed-top navbar-expand-md  navbar-light bg-light-gray affix"
+        >
+        <div  class="collapse navbar-collapse">
+           
+                <a style="margin-right: 100px; " href="#" class="navbar-brand" >
+                    
+                        <mat-icon class="text-color-red">local_grocery_store</mat-icon>
+                        <span class="text-color-red">groceries.com</span>
+                    
+             
+                  
+                </a>
+  
+  
+  
+  
+  
+  
+            <form class="form-inline mr-auto">
+              <input style="margin-right: 16px" class="form-control" type="text" placeholder="Search Products Here" aria-label="Search">
+              
+              <button mat-raised-button color="mat-icon-color">
+                <mat-icon class="text-color-red">search</mat-icon>
+                <span class="text-color-red">Search</span>
+                </button>
+              
+              
+            </form>
+        
+          </div>
+  <div>        <button type="button" class="navbar-toggler"
+           data-toggle="collapse"
+           data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon" 
+              style="color: #ff0000"></span>
+          </button>
+  <!-- <div></div> -->
+          <div class="collapse navbar-collapse" >
+              <div class="navbar-nav ml-auto" >
+                  
+  
+                  <!-- <button style="margin-right: 30px" mat-flat-button color="mat-icon-color">
+                      <mat-icon class="text-color-red">location_on</mat-icon>
+                      <span class="text-color-red">Locate Store</span>
+                      </button> -->
+                    
+                    <button style="margin-right: 30px" mat-raised-button color="mat-icon-color">
+                      <mat-icon class="text-color-red">home</mat-icon>
+                      <span class="text-color-red">Home</span>
+                      </button>
+                    
+                      <button 
+                      style="margin-right: 30px; "
+                       matBadgeSize="small" 
+                        mat-raised-button color="mat-icon-color">
+                        <mat-icon matBadge="0"  matBadgeColor="warn" class="text-color-red">shopping_cart</mat-icon>
+                        <span class="text-color-red">Cart</span>
+                        </button>
+                          
+                        <button style="margin-right: 6px" mat-raised-button color="mat-icon-color">
+                          <mat-icon class="text-color-red">person_add</mat-icon>
+                          <span class="text-color-red">Sign Up</span>
+                          </button>
+                        <span class="text-color-red" style="margin-top: 10px; margin-right: 6px;">/</span>
+                          <button  mat-raised-button color="mat-icon-color">
+                            <mat-icon class="text-color-red">account_box</mat-icon>
+                            <span class="text-color-red">Sign In</span>
+                            </button>
+                          
+                                  
+  <!--         
+                      <button style="margin-right: 50px" class="mat-icon-color" mat-icon-button color="primary" aria-label="Example icon button with a home icon">
+                          <mat-icon> local_phone</mat-icon><span class="aligned-with-icon">Contact Us</span>
+                        </button>
+    
+         -->
+         </div>
+  
+                </div>
+                </div>
+      </nav>
+   
+    </div>
+  
+  <!-- <div class="col-md-12">
+  
+  </div> -->
+         </mat-toolbar>
+         </div> 
+<!-- /navbar -->
 
 <!-- The sidebar -->
 <div class="sidebar">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        
+    <mat-nav-list >
+         
+       
+
+         
+    
+        <mat-expansion-panel hideToggle>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                  <button mat-flat-button color="mat-icon-color">
+                      <mat-icon class="text-color-red">list</mat-icon>
+                      <span class="text-color-red">Categories</span>
+                      </button>
+              </mat-panel-title>
+              
+            </mat-expansion-panel-header>
+           <!-- Default dropright button -->
+           <a mat-list-item href="..." class="text-color-red">Books</a>
+            <a mat-list-item href="..." class="text-color-red">Mugs</a>
+            <a mat-list-item href="..." class="text-color-red">Mouse Pad</a>
+            <a mat-list-item href="..." class="text-color-red">Bags</a>
+
+            <!-- *ngFor="let link of links" -->
+            
+
+          </mat-expansion-panel>
+        <hr style="border: none;">
+          <mat-expansion-panel hideToggle>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <button mat-flat-button color="mat-icon-color">
+                        <mat-icon class="text-color-red">sort</mat-icon>
+                        <span class="text-color-red">Sort By</span>
+                        </button>
+                </mat-panel-title>
+                
+              </mat-expansion-panel-header>
+              <a mat-list-item href="..." class="text-color-red" >Price
+                  <mat-icon class="text-color-red">arrow_downward</mat-icon>
+                  <mat-icon class="text-color-red">arrow_upward</mat-icon>
+              </a>
+              <a mat-list-item href="..." class="text-color-red">Alphabetical
+
+                  <mat-icon class="text-color-red">sort_by_alpha</mat-icon>
+              </a>
+              <a mat-list-item href="..." class="text-color-red">Latest
+
+                  <mat-icon class="text-color-red">fiber_new</mat-icon>
+              </a>
+              <a mat-list-item href="..." class="text-color-red">Customer Rating
+
+                  <mat-icon class="text-color-red">star_half</mat-icon>
+              </a>
+
+              <!-- *ngFor="let link of links" -->
+              
+
+            </mat-expansion-panel>
+            
+            <hr style="border: none;">
+            <mat-expansion-panel hideToggle>
+                <mat-expansion-panel-header>
+                  <mat-panel-title>
+                      <button mat-flat-button color="mat-icon-color">
+                          <mat-icon class="text-color-red">list</mat-icon>
+                          <span class="text-color-red">Your Wish List</span>
+                          </button>
+                  </mat-panel-title>
+                  
+                </mat-expansion-panel-header>
+                <a mat-list-item href="..." class="text-color-red" >Books</a>
+                <a mat-list-item href="..." class="text-color-red">Mugs</a>
+                <a mat-list-item href="..." class="text-color-red">Mouse Pad</a>
+  
+                <!-- *ngFor="let link of links" -->
+                
+  
+              </mat-expansion-panel>
+            
+              <hr style="border: none;">
+              
+    </mat-nav-list>
+
       </div>
    
       <!-- Page content -->
@@ -40,6 +207,65 @@
                 <h2>Microsoft Edge</h2>
                 <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
               </article>
-          </main>  ..
+
+
+              <h1>Most Popular Browsers</h1>
+              <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+            
+              <article>
+                <h2>Google Chrome</h2>
+                <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+              </article>
+            
+              <article>
+                <h2>Mozilla Firefox</h2>
+                <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+              </article>
+            
+              <article>
+                <h2>Microsoft Edge</h2>
+                <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+              </article>
+
+
+              <h1>Most Popular Browsers</h1>
+              <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+            
+              <article>
+                <h2>Google Chrome</h2>
+                <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+              </article>
+            
+              <article>
+                <h2>Mozilla Firefox</h2>
+                <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+              </article>
+            
+              <article>
+                <h2>Microsoft Edge</h2>
+                <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+              </article>
+
+
+
+
+              <h1>Most Popular Browsers</h1>
+              <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+            
+              <article>
+                <h2>Google Chrome</h2>
+                <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+              </article>
+            
+              <article>
+                <h2>Mozilla Firefox</h2>
+                <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+              </article>
+            
+              <article>
+                <h2>Microsoft Edge</h2>
+                <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+              </article>
+          </main>
       </div>
       
