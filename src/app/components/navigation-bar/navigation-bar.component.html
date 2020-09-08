@@ -1,31 +1,14 @@
 
 
-<mat-toolbar class="navbar">
-
-    <div>
-      logo
-    </div>
-
-
-<mat-divider></mat-divider>
-
-<div >
-    <span  class="button"><button  type="button" mat-flat-button>
-        <mat-icon style="font-size: x-large; "  class="text-color-red">home</mat-icon>
-      Home</button></span>
-    <span  class="button"> <button type="button" mat-flat-button>
-        <mat-icon style="font-size: x-large; "  class="text-color-red">help_outline</mat-icon>
-      About</button></span>
-    <span  class="button"><button type="button" mat-flat-button>Services</button></span>
-    <span  class="button"><button  type="button" mat-flat-button>
-        <mat-icon style="font-size: x-large; "  class="text-color-red">home</mat-icon>
-      Home</button></span>
-  </div>
-  </mat-toolbar>  
-  <div>
-     
-
-  <mat-divider></mat-divider>
+<mat-sidenav-container>
+<mat-sidenav opened mode="side">side-nav</mat-sidenav>
+<mat-sidenav-content>
+ 
+ <span><button mat-button><i class="fa fa-bars" aria-hidden="true"></i></button></span>
+ 
+  main content
+</mat-sidenav-content>
+</mat-sidenav-container>
 
 
 
@@ -35,86 +18,41 @@
 
 
 
-<!-- <div class="nav"><mat-toolbar >
+<!-- 
 
 
-
-
-
-
-    <div class="mat-body-strong">
-
-      <nav  class="navbar fixed-top navbar-expand-md  navbar-light bg-light-gray affix"
-        >
-        <div  class="collapse navbar-collapse">
-
-                <a   href="#" class="navbar-brand" >
-
-                        <mat-icon class="text-color-red">local_grocery_store</mat-icon>
-                        <span class="text-color-red">groceries.com</span>
-
-
-
-                </a>
-
-
-
-
-
-
-
-
-          </div>
-  <div>        <button type="button" class="navbar-toggler"
-           data-toggle="collapse"
-           data-target="#navbarCollapse">
-              <span class="navbar-toggler-icon"
-              style="color: #ff0000"></span>
-          </button> -->
-  <!-- <div></div> -->
-          <!-- <div class="collapse navbar-collapse" >
-              <div class="navbar-nav ml-auto" >
- -->
-
-                  <!-- <button style="margin-right: 30px" mat-flat-button color="mat-icon-color">
-                      <mat-icon class="text-color-red">location_on</mat-icon>
-                      <span class="text-color-red">Locate Store</span>
-                      </button> -->
-
-                    <!-- <button style="margin-right: 30px" mat-raised-button color="mat-icon-color">
-                      <mat-icon class="text-color-red">home</mat-icon>
-                      <span class="text-color-red">Home</span>
-                      </button>
-
-
-                        <button style="margin-right: 6px" mat-raised-button color="mat-icon-color">
-                          <mat-icon class="text-color-red">person_add</mat-icon>
-                          <span class="text-color-red">Sign Up</span>
-                          </button>
-                        <span class="text-color-red" style="margin-top: 10px; margin-right: 6px;">/</span>
-                          <button  mat-raised-button color="mat-icon-color">
-                            <mat-icon class="text-color-red">account_box</mat-icon>
-                            <span class="text-color-red">Sign In</span>
-                            </button>
- -->
-
-  <!--
-                      <button style="margin-right: 50px" class="mat-icon-color" mat-icon-button color="primary" aria-label="Example icon button with a home icon">
-                          <mat-icon> local_phone</mat-icon><span class="aligned-with-icon">Contact Us</span>
-                        </button>
-
-         -->
-         <!-- </div>
-
-                </div>
-                </div>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+   
+  
+      
+        <div  id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button type="button" mat-flat-button>Home
+                    <i class="fa fa-home" aria-hidden="true"></i>
+            </button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button type="button" mat-flat-button>Sign-In
+                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                </button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button type="button" mat-flat-button>Sign-Up
+                    <i class="fa fa-user-plus" aria-hidden="true"></i>
+                </button></a>
+            </li> -->
+            <!-- <li class="nav-item">
+                    <a class="nav-link" href="#"><button type="button" mat-flat-button>Sign-Up
+                          <i class="fa fa-user-plus" aria-hidden="true"></i>
+                      </button></a>
+                  </li> -->
+          <!-- </ul>
+          
+        </div>
+        
       </nav>
 
-    </div>
-   -->
-  <!-- <div class="col-md-12">
 
-  </div> -->
-         <!-- </mat-toolbar>
-         </div>  -->
-<!-- /navbar -->
+      
+ -->

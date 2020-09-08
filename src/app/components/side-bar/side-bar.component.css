@@ -1,68 +1,46 @@
+
+
+
+
+button:hover{
+  background-color: rgb(255, 166, 0);
+  color:  black;
+
+}
+
 .sidebar {
-    top: 120px;
-    margin: 0;
-    padding: 0;
-    width: 23%;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-  }
-  
-  /* Sidebar links */
-  .sidebar a {
-    display:  inline-flexbox;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  /* Active/current link */
-  .sidebar a.active {
-    
-    color: red;
-  }
-  
-  /* Links on mouse-over */
-  .sidebar a:hover:not(.active) {
-   
-    color: red;
-  }
-  
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  div.content {
-    
-    padding: 1px 16px;
-    height: 1000px;
-    margin-left: 250px;
-  }
-  
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
-    .content {
-      width: 100%;
-      height: auto;
-      position: relative;
-      text-align: center;
-      position: absolute;left: 0; ;
-    }
-  }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
-    .sidebar a {
-      text-align: center;
-      float: none;
-    }
-  }
+ display: flex;
+  height: calc(100vh - 120px);
+  position: fixed!important;
+  z-index: 1;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.sidebar a {
+
+  background-color:  rgb(255, 166, 0); 
+}
 
 
+@media (max-width: 993px)
+{.sidebar {
+
+    display: flex;
+    position: sticky;
+    width: 100%;
+}
+@media (min-width: 768px)
+{.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 100%;
+}
+}
+.mat-list-base {
+  
+  display: flex;
+  -webkit-tap-highlight-color: transparent;
+}
 
 
+}  

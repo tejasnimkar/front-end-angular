@@ -1,11 +1,51 @@
 <div class="sidebar">
-        
-    <mat-nav-list >
-         
-       
-
-         
     
+<div class="pos-f-t ">
+    
+  
+ 
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+              <button mat-flat-button color="mat-icon-color">
+                  <mat-icon class="text-color-red">list</mat-icon>
+                  <span class="text-color-red">Categories</span>
+                  </button>
+          </mat-panel-title>
+          
+        </mat-expansion-panel-header>
+
+       <a mat-list-item href="#" class="nav-link">Books</a>
+        <a mat-list-item href="#" class="nav-link">Mugs</a>
+        <a mat-list-item href="#" class="nav-link">Mouse Pad</a>
+        <a mat-list-item href="#" class="nav-link">Bags</a>
+
+
+        
+
+      </mat-expansion-panel>   
+      <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+                <button mat-flat-button color="mat-icon-color">
+                    <mat-icon class="text-color-red">list</mat-icon>
+                    <span class="text-color-red">Categories</span>
+                    </button>
+            </mat-panel-title>
+            
+          </mat-expansion-panel-header>
+  
+         <a mat-list-item href="#" class="nav-link">Books</a>
+          <a mat-list-item href="#" class="nav-link">Mugs</a>
+          <a mat-list-item href="#" class="nav-link">Mouse Pad</a>
+          <a mat-list-item href="#" class="nav-link">Bags</a>
+  
+  
+          
+  
+        </mat-expansion-panel>   
         <mat-expansion-panel hideToggle>
             <mat-expansion-panel-header>
               <mat-panel-title>
@@ -16,70 +56,197 @@
               </mat-panel-title>
               
             </mat-expansion-panel-header>
-           <!-- Default dropright button -->
-           <a mat-list-item href="..." class="text-color-red">Books</a>
-            <a mat-list-item href="..." class="text-color-red">Mugs</a>
-            <a mat-list-item href="..." class="text-color-red">Mouse Pad</a>
-            <a mat-list-item href="..." class="text-color-red">Bags</a>
-
-            <!-- *ngFor="let link of links" -->
+    
+           <a mat-list-item href="#" class="nav-link">Books</a>
+            <a mat-list-item href="#" class="nav-link">Mugs</a>
+            <a mat-list-item href="#" class="nav-link">Mouse Pad</a>
+            <a mat-list-item href="#" class="nav-link">Bags</a>
+    
+    
             
+    
+          </mat-expansion-panel>   
+    </div>
+  </div>
 
-          </mat-expansion-panel>
-        <mat-divider></mat-divider>
-          <mat-expansion-panel hideToggle>
-              <mat-expansion-panel-header>
-                <mat-panel-title>
-                    <button mat-flat-button color="mat-icon-color">
-                        <mat-icon class="text-color-red">sort</mat-icon>
-                        <span class="text-color-red">Sort By</span>
-                        </button>
-                </mat-panel-title>
-                
-              </mat-expansion-panel-header>
-              <a mat-list-item href="..." class="text-color-red" >Price
-                  <mat-icon class="text-color-red">arrow_downward</mat-icon>
-                  <mat-icon class="text-color-red">arrow_upward</mat-icon>
-              </a>
-              <a mat-list-item href="..." class="text-color-red">Alphabetical
+</div>
 
-                  <mat-icon class="text-color-red">sort_by_alpha</mat-icon>
-              </a>
-              <a mat-list-item href="..." class="text-color-red">Latest
+</div>
 
-                  <mat-icon class="text-color-red">fiber_new</mat-icon>
-              </a>
-              <a mat-list-item href="..." class="text-color-red">Customer Rating
+<!-- <div class="container-fluid sidebar" > 
 
-                  <mat-icon class="text-color-red">star_half</mat-icon>
-              </a>
-
-              <!-- *ngFor="let link of links" -->
-              
-
-            </mat-expansion-panel>
+  <div   id="navbarToggler1">
+      <ul class="navbar-nav col-md-3 mt-2 mt-lg-0 ">
+      
+        <li class="nav-item active">
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+                <button mat-flat-button color="mat-icon-color">
+                    <mat-icon class="text-color-red">list</mat-icon>
+                    <span class="text-color-red">Categories</span>
+                    </button>
+            </mat-panel-title>
             
-            <mat-divider></mat-divider>
-            <mat-expansion-panel hideToggle>
-                <mat-expansion-panel-header>
-                  <mat-panel-title>
-                      <button mat-flat-button color="mat-icon-color">
-                          <mat-icon class="text-color-red">list</mat-icon>
-                          <span class="text-color-red">Your Wish List</span>
-                          </button>
-                  </mat-panel-title>
-                  
-                </mat-expansion-panel-header>
-                <a mat-list-item href="..." class="text-color-red" >Books</a>
-                <a mat-list-item href="..." class="text-color-red">Mugs</a>
-                <a mat-list-item href="..." class="text-color-red">Mouse Pad</a>
+          </mat-expansion-panel-header>
   
-                <!-- *ngFor="let link of links" -->
-                
+         <a mat-list-item href="#" class="nav-link">Books</a>
+          <a mat-list-item href="#" class="nav-link">Mugs</a>
+          <a mat-list-item href="#" class="nav-link">Mouse Pad</a>
+          <a mat-list-item href="#" class="nav-link">Bags</a>
   
-              </mat-expansion-panel>
-              <mat-divider></mat-divider>
-    </mat-nav-list>
+  
+          
+  
+        </mat-expansion-panel>    
+      </li>
+      <li class="nav-item">
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+                <button mat-flat-button color="mat-icon-color">
+                    <mat-icon class="text-color-red">list</mat-icon>
+                    <span class="text-color-red">Categories</span>
+                    </button>
+            </mat-panel-title>
+            
+          </mat-expansion-panel-header>
+  
+         <a mat-list-item href="#" class="nav-link">Books</a>
+          <a mat-list-item href="#" class="nav-link">Mugs</a>
+          <a mat-list-item href="#" class="nav-link">Mouse Pad</a>
+          <a mat-list-item href="#" class="nav-link">Bags</a>
+  
+  
+          
+  
+        </mat-expansion-panel>    
+      </li>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+              <button mat-flat-button color="mat-icon-color">
+                  <mat-icon class="text-color-red">list</mat-icon>
+                  <span class="text-color-red">Categories</span>
+                  </button>
+          </mat-panel-title>
+          
+        </mat-expansion-panel-header>
 
-      </div>
+       <a mat-list-item href="#" class="nav-link">Books</a>
+        <a mat-list-item href="#" class="nav-link">Mugs</a>
+        <a mat-list-item href="#" class="nav-link">Mouse Pad</a>
+        <a mat-list-item href="#" class="nav-link">Bags</a>
+
+
+        
+
+      </mat-expansion-panel>     -->
+      <!-- <li class="nav-item">
+              <a class="nav-link" href="#"><button type="button" mat-flat-button>Sign-Up
+                    <i class="fa fa-user-plus" aria-hidden="true"></i>
+                </button></a>
+            </li> -->
+    <!-- </ul>
+    
+  </div>
+
+</div>
+
+
+
+
+
+
+
+ -->
+
+
+<!-- 
+<div class="container-fluid">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    
+<div class="row">
+    
+<div class="col-md-12 col-sm-12 sidebar " >
+    
    
+    <mat-nav-list class="collapse navbar-collapse collapsed"  id="navbarToggler1">
+      
+
+<div class="col-md-3 col-sm-4">
+    <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+              <button mat-flat-button color="mat-icon-color">
+                  <mat-icon class="text-color-red">list</mat-icon>
+                  <span class="text-color-red">Categories</span>
+                  </button>
+          </mat-panel-title>
+          
+        </mat-expansion-panel-header>
+
+       <a mat-list-item href="..." class="text-color-red">Books</a>
+        <a mat-list-item href="..." class="text-color-red">Mugs</a>
+        <a mat-list-item href="..." class="text-color-red">Mouse Pad</a>
+        <a mat-list-item href="..." class="text-color-red">Bags</a>
+
+
+        
+
+      </mat-expansion-panel>
+
+</div>
+<div class="col-md-3 col-sm-4">
+    <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+              <button mat-flat-button color="mat-icon-color">
+                  <mat-icon class="text-color-red">list</mat-icon>
+                  <span class="text-color-red">Categories</span>
+                  </button>
+          </mat-panel-title>
+          
+        </mat-expansion-panel-header>
+
+       <a mat-list-item href="..." class="text-color-red">Books</a>
+        <a mat-list-item href="..." class="text-color-red">Mugs</a>
+        <a mat-list-item href="..." class="text-color-red">Mouse Pad</a>
+        <a mat-list-item href="..." class="text-color-red">Bags</a>
+
+
+        
+
+      </mat-expansion-panel>
+
+</div>
+<div class="col-md-3 col-sm-4">
+    <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+              <button mat-flat-button color="mat-icon-color">
+                  <mat-icon class="text-color-red">list</mat-icon>
+                  <span class="text-color-red">Categories</span>
+                  </button>
+          </mat-panel-title>
+          
+        </mat-expansion-panel-header>
+
+       <a mat-list-item href="..." class="text-color-red">Books</a>
+        <a mat-list-item href="..." class="text-color-red">Mugs</a>
+        <a mat-list-item href="..." class="text-color-red">Mouse Pad</a>
+        <a mat-list-item href="..." class="text-color-red">Bags</a>
+
+
+        
+
+      </mat-expansion-panel>
+
+</div>
+</mat-nav-list>
+</div>
+</div>
+
+</div>   -->

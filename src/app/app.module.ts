@@ -8,7 +8,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
-
+import { MatInputModule } from '@angular/material/input';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { MatDividerModule } from '@angular/material/divider';
@@ -46,7 +46,8 @@ import { ProductsComponent } from './components/products/products.component';
     MatExpansionModule,
     MatCardModule,
     MatFormFieldModule,
-    MatDividerModule
+    MatDividerModule,
+    MatInputModule
 
   ],
   providers: [],
